@@ -1,0 +1,40 @@
+.sub-menu-1{
+    display: none;
+}
+.align ul li:hover .sub-menu-1{
+    display: inline-flex;
+    flex-direction: row;
+    background: white;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -15px;
+    color:black;
+}
+.align ul li:hover .sub-menu-1 ul{
+   align-items: center;
+   width: 200px;
+   height: 320px auto;
+    background: white;
+    background-size: cover;
+    
+}
+.align ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted green;
+    background: transparent;
+    text-align: left;
+}
+.align ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-you:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    margin-top: -49px;
+    margin-left: 150px;
+    background: white;
+}

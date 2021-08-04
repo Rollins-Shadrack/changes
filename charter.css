@@ -1,0 +1,54 @@
+.right{
+    background-color: white;
+    height: 150px ;
+    width: 900px;
+    float: right;
+        }
+        .left{
+            
+            height: 150px ;
+        
+        }
+        .deco{
+            display: block;
+            background: silver;
+            padding: 3px;
+        }
+        .omit, .head, .row,.col {
+            border: 2px solid black;
+            margin: auto;
+            border-collapse: collapse;
+        }
+table{
+    border: 2px solid black;
+    margin: 10px;
+}
+th{
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 5px;
+}
+@media(max-width:700px){
+    .image{
+        position: absolute;
+    }
+.align{
+    position: absolute;
+    height: 40px;
+    width: 100%;
+    top: 0;
+    right: 0;
+    
+}
+.align ul li a{
+    width: 100%;
+    font-size: 6px;
+    display: inline-block;
+    font-weight: 700;
+    
+    
+}
+}
+
+        
+        
